@@ -8,11 +8,10 @@ format criteria grade exactly that. Your course repo link is the whole submissio
 files and no evidence uploads are part of Assignment 5.
 
 **Contribution Number:** [1]
-**Student:** [Student name]
-**GitHub Username:** [your GitHub username, exactly as it appears on your profile - no @, no
-profile URL. Your comments upstream are identified by this name.]
-**Issue:** [GitHub issue link]
-**Pull Request:** [GitHub PR link, once opened]
+**Student:** Siyam Seid
+**GitHub Username:** sseid4
+**Issue:** Not selected yet 
+**Pull Request:** Not opened yet
 
 One repository, built across units 5 to 8, telling the whole story of your real
 contribution. Fill it as you work, not at the end — the sections below ask for evidence that
@@ -57,8 +56,17 @@ one in the week it belongs to.
 
 **Unit 5: [one line on the tool work]**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+I created a fit profile describing my experience with Python,
+JavaScript/TypeScript, Java, C/C++, SQL, HTML/CSS, and Dart. I identified
+Python and JavaScript/TypeScript as my strongest areas and prioritized
+regression testing, React/Next.js, SQL, Docker, and unfamiliar-codebase
+debugging as skills I want to improve.
+
+I then wrote four search queries for Python, TypeScript, testing, and Docker
+issues. I ran the issue-scout scan and saved its results. The scan accepted
+four issues and rejected one, but the accepted results clustered in only two
+repositories and the broad Python query returned many issues, so I identified
+those as possible improvements for a later scan.
 
 **Unit 6: [one line on the tool work]**
 
