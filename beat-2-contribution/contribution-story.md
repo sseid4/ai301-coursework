@@ -1,4 +1,4 @@
-# Contribution: [Issue Title]
+# Contribution: Figure out what fields to show per version
 
 Path: `beat-2-contribution/contribution-story.md`
 
@@ -10,7 +10,7 @@ files and no evidence uploads are part of Assignment 5.
 **Contribution Number:** [1]
 **Student:** Siyam Seid
 **GitHub Username:** sseid4
-**Issue:** Not selected yet 
+**Issue:** [AcademySoftwareFoundation/dna#49](https://github.com/AcademySoftwareFoundation/dna/issues/49) 
 **Pull Request:** Not opened yet
 
 One repository, built across units 5 to 8, telling the whole story of your real
@@ -70,9 +70,13 @@ those as possible improvements for a later scan.
 
 **Unit 6: [one line on the tool work]**
 
-[2-4 sentences: the voice-guard, the repo-memory file. What broke or
-fell short, and what changed because of it. "Nothing broke" counts when
-it is true - say how you know.]
+I installed the voice guard, updated the real-repository repro-check and
+plan-check scopes, and patched the issue-scout rubric so `scope-feasible`
+replaced the stricter `scope-bounded` check. The first claim-grade attempt
+still used the old Path Review scope, so I verified and replaced the
+installed scope before rerunning it. The updated claim grade accepted the
+draft, and I posted the claim after checking that the issue had no existing
+claim or assignee.
 
 **Unit 7: [one line on the tool work]**
 
@@ -88,24 +92,29 @@ drafted, what you did with the draft.]
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs in your own words: how you searched, what your scan
-surfaced, what your scout's verdict said, why this issue fits your
-profile, and what you hope to learn. If your scout's verdict on it
-was reject and you chose it anyway, say so here and say why; choosing
-against your own tool silently is what loses points. Close with an
-honest read of the tool itself: where the scout fell short on a real
-wild search and what you changed or would change, or what convinced
-you it held up. **Record the link to your claim comment in this section too.**
-Not claimed yet? Write `claim pending` and today's date where the link goes,
-and add the link the moment your claim lands.]
+I found this issue while using my issue-scout to search for possible contribution opportunities. The issue is about deciding which version information should appear in DNA’s version header. My scout originally rejected it because the exact fields had not been decided yet. The issue depends on user stories and conversations with production teams, and that information is not included in the issue.
+
+I still chose it because it is one clear piece of work, even though it has some uncertainty. I would describe it as ambitious because I need to learn an unfamiliar codebase, find out what version information the backend already provides, and ask the maintainers for feedback before deciding what to change. The difficulty note does not mean the issue is impossible; it means I should clarify the open design questions early.
+
+This issue fits me because I want more practice understanding an unfamiliar project and working with maintainers before writing code. I also want to learn how product needs affect a technical decision. My claim draft passed the claim check, and I posted my claim comment on the issue.
+
+My scout was useful for checking whether the repository was active, whether the issue was already claimed, and whether the project allowed contributions. However, its original scope check was too strict because it rejected issues with open design questions. I changed the check from scope-bounded to scope-feasible, so an issue can still be considered if it is one clear piece of work. The remaining uncertainty is reported as a difficulty note instead of automatically rejecting the issue.
+
+Claim comment: https://github.com/AcademySoftwareFoundation/dna/issues/49#issuecomment-6549988166
 
 **Toolkit**
 
-- Tool: issue-scout (your scout: your search strategy, your rubric),
-  and how you used it
-- What it produced: [the scan and its verdict on this issue, described]
-- Difficulties: [where it fell short, or "none met" if none did]
-- What changed: [what you patched or would update, or "nothing"]
+-Tool: issue-scout, using my search strategy and rubric; then repro-check
+  for the claim draft.
+- What it produced: a scan read-out, an original `reject` for DNA #49 under
+  `scope-bounded`, and an updated claim-grade `accept` after the wild scope
+  was installed. The issue is **ambitious** because its design edge is open.
+- Difficulties: the scout's sandbox scope initially rejected the DNA
+  repository, and its original scope check rejected an issue that is one
+  piece of work but requires product input.
+- What changed: I installed the Unit 6 wild repro-check scope, replaced
+  `scope-bounded` with `scope-feasible` in the rubric, added the difficulty
+  note section, and recorded the replacement in `scan-notes.md`.
 
 ---
 
